@@ -1,0 +1,58 @@
+document.addEventListener('DOMContentLoaded', ()=> 
+{
+   
+    class Animation
+    {
+        constructor(id,imageSrc, spriteWidth, spriteHeight, spriteRows, spriteColumns, currentFrame )
+        {
+            this.canvas = document.getElementById(id);
+            this.ctx = this.canvas.getContext('2d');
+            this.Image = new Image();
+            this.imageSrc = imageSrc;
+            this.spriteHeight = spriteHeight;
+            this.spriteWidth = spriteWidth;
+            this.spriteRows = spriteRows;
+            this.spriteColumns = spriteColumns;
+            this.currentFrame = currentFrame;
+            
+
+            this.drawSprite = this.drawSprite.bind(this);
+             // Start the animation when the image is loaded
+             this.Image.onload = () => {
+                setInterval(this.drawSprite, 100); // Altere o intervalo conforme necessário
+            };
+           
+
+        };
+
+        drawSprite()
+        {
+            this.ctx.clearRect(0, 0, canvas.width, canvas.height);
+    
+            const row = Math.floor(this.currentFrame / this.spriteColumns);
+            const col = this.currentFrame % this.spriteColumns;
+    
+              // Calcular as coordenadas para centralizar o sprite
+                const x = (canvas.width - 100) / 2; // Centraliza horizontalmente
+                const y = (canvas.height - 100) / 2; // Centraliza verticalmente
+    
+            this.ctx.drawImage(
+                this.Image,
+                col * this.spriteWidth,
+                row * this.spriteHeight,
+                this.spriteWidth,
+                this.spriteHeight,
+                x,
+                y,
+                0,
+                0
+            );
+    
+            this.currentFrame = (this.currentFrame + 1) % (this.spriteRows * this.spriteColumns);
+        }
+    }
+
+    new Animation("spritesheetCanvas","Imagem/spritesheet.png", 599, 599, 1, 13, 0).drawSprite;
+
+   
+})

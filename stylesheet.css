@@ -1,0 +1,126 @@
+body
+{
+    background-image: url(Imagem/old_page.png) , url(Imagem/florest.jpg);
+    background-size: cover, cover;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center , center;
+    background-attachment: fixed, fixed;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Ui */
+.mainCircle
+{
+
+}
+
+#userCircle1
+{
+    background-image: url(Imagem/Circle2_Background.png);
+    background-size: cover;
+    position: absolute;
+    height: 150px;
+    left: 45%;
+    top: 2%; 
+
+}
+
+#userCircle2
+{
+    background-image: url(Imagem/Circle2_Background.png);
+    background-size: cover;
+    position: absolute;
+    height: 150px;
+    left: 55%;
+    top: 10%; 
+
+}
+
+#userCircle3
+{
+    background-image: url(Imagem/Circle2_Background.png);
+    background-size: cover;
+    position: absolute;
+    height: 150px;
+    right: 55%;
+    top: 10%; 
+
+}
+
+#userCircle4
+{
+    background-image: url(Imagem/Circle2_Background.png);
+    background-size: cover;
+    position: absolute;
+    height: 150px;
+    left: 61%;
+    top: 25%; 
+}
+
+#userCircle5
+{
+    background-image: url(Imagem/Circle2_Background.png);
+    background-size: cover;
+    position: absolute;
+    height: 150px;
+    right: 61%;
+    top: 25%; 
+}
+
+#userCircle6
+{
+    background-image: url(Imagem/Circle2_Background.png);
+    background-size: cover;
+    position: absolute;
+    height: 150px;
+    left: 45%;
+    bottom: 7%; 
+
+}
+
+#userCircle7
+{
+    background-image: url(Imagem/Circle2_Background.png);
+    background-size: cover;
+    position: absolute;
+    height: 150px;
+    left: 55%;
+    bottom: 13%; 
+
+}
+
+#userCircle8
+{
+    background-image: url(Imagem/Circle2_Background.png);
+    background-size: cover;
+    position: absolute;
+    height: 150px;
+    right: 55%;
+    bottom: 13%; 
+
+}
+
+#userCircle9
+{
+    background-image: url(Imagem/Circle2_Background.png);
+    background-size: cover;
+    position: absolute;
+    height: 150px;
+    left: 61%;
+    bottom: 28%; 
+}
+
+#userCircle10
+{
+    background-image: url(Imagem/Circle2_Background.png);
+    background-size: cover;
+    position: absolute;
+    height: 150px;
+    right: 61%;
+    bottom: 28%; 
+}
+
