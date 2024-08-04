@@ -15,8 +15,63 @@ body
 /* Ui */
 .mainCircle
 {
-
+   
 }
+
+
+#roundCircle1
+{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 35%;
+    left: 38%;
+ 
+}
+
+#roundCircle2
+{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 35%;
+    left: 42%;
+ 
+}
+
+#roundCircle3
+{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 35%;
+    left: 46%;
+ 
+}
+
+#roundCircle4
+{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 35%;
+    left: 50%;
+ 
+}
+
+#roundCircle5
+{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 35%;
+    left: 54%;
+ 
+}
+
+/* --------------------------------------------------------------------------------------------------------------------*/
+
+/* UserCircle Inicio*/
 
 #userCircle1
 {
@@ -124,3 +179,176 @@ body
     bottom: 28%; 
 }
 
+/* UserCircle Fim*/
+
+/* nameBar Começo*/
+
+
+
+#nameBar1
+{
+    background-image: url(Imagem/nameBar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 110px;
+    height: 23px;
+    font-size: 13px;
+    scrollbar-width: none;
+    overflow-x: scroll;
+    position: absolute;
+    left: 46%;
+    top: 20%; 
+  
+    
+   
+}
+
+#nameBar2
+{
+    background-image: url(Imagem/nameBar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 110px;
+    height: 23px;
+    font-size: 13px;
+    scrollbar-width: none;
+    overflow-x: scroll;
+    position: absolute;
+    left: 56%;
+    top: 28%; 
+  
+    
+   
+}
+
+#nameBar3
+{
+    background-image: url(Imagem/nameBar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 110px;
+    height: 23px;
+    font-size: 13px;
+    scrollbar-width: none;
+    overflow-x: scroll;
+    position: absolute;
+    right: 56%;
+    top: 28%; 
+  
+    
+   
+}
+
+#nameBar4
+{
+    background-image: url(Imagem/nameBar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 110px;
+    height: 23px;
+    font-size: 13px;
+    scrollbar-width: none;
+    overflow-x: scroll;
+    position: absolute;
+    left: 62%;
+    top: 43%; 
+  
+}
+
+#nameBar5
+{
+    background-image: url(Imagem/nameBar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 110px;
+    height: 23px;
+    font-size: 13px;
+    scrollbar-width: none;
+    overflow-x: scroll;
+    position: absolute;
+    right: 62%;
+    top: 43%; 
+  
+}
+
+#nameBar6
+{
+    background-image: url(Imagem/nameBar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 110px;
+    height: 23px;
+    font-size: 13px;
+    scrollbar-width: none;
+    overflow-x: scroll;
+    position: absolute;
+    left: 46%;
+    bottom: 6%; 
+  
+}
+
+#nameBar7
+{
+    background-image: url(Imagem/nameBar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 110px;
+    height: 23px;
+    font-size: 13px;
+    scrollbar-width: none;
+    overflow-x: scroll;
+    position: absolute;
+    left: 56%;
+    bottom: 12%; 
+  
+}
+
+#nameBar8
+{
+    background-image: url(Imagem/nameBar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 110px;
+    height: 23px;
+    font-size: 13px;
+    scrollbar-width: none;
+    overflow-x: scroll;
+    position: absolute;
+    right: 56%;
+    bottom: 12%; 
+  
+}
+
+#nameBar9
+{
+    background-image: url(Imagem/nameBar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 110px;
+    height: 23px;
+    font-size: 13px;
+    scrollbar-width: none;
+    overflow-x: scroll;
+    position: absolute;
+    left: 62%;
+    bottom: 27%; 
+  
+}
+
+
+#nameBar10
+{
+    background-image: url(Imagem/nameBar.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 110px;
+    height: 23px;
+    font-size: 13px;
+    scrollbar-width: none;
+    overflow-x: scroll;
+    position: absolute;
+    right: 62%;
+    bottom: 27%; 
+  
+}
+/* nameBar Fim*/
