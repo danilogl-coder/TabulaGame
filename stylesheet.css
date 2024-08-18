@@ -181,6 +181,94 @@ body
 
 /* UserCircle Fim*/
 
+/* Crown */
+.crownIMG1
+{
+    position: absolute;
+    height: 120px;
+    left: 50%;
+    top: 1%; 
+}
+
+.crownIMG2
+{
+    position: absolute;
+    height: 120px;
+    left: 60%;
+    top: 8%; 
+}
+
+.crownIMG3
+{
+    position: absolute;
+    height: 120px;
+    right: 52%;
+    top: 8%; 
+}
+
+.crownIMG4
+{
+    position: absolute;
+    height: 120px;
+    left: 66%;
+    top: 23%; 
+}
+
+.crownIMG5
+{
+    position: absolute;
+    height: 120px;
+    right: 58%;
+    top: 23%;
+
+}
+
+.crownIMG6
+{
+    position: absolute;
+    height: 120px;
+    left: 50%;
+    bottom: 13%; 
+
+}
+
+.crownIMG7
+{
+    position: absolute;
+    height: 120px;
+    left: 60%;
+    bottom: 20%;  
+
+}
+
+.crownIMG8
+{
+    position: absolute;
+    height: 120px;
+    right: 52%;
+    bottom: 19%; 
+
+}
+
+.crownIMG9
+{
+    position: absolute;
+    height: 120px;
+    left: 66%;
+    bottom: 34%; 
+
+}
+
+.crownIMG10
+{
+    position: absolute;
+    height: 120px;
+    right: 58%;
+    bottom: 34%;
+
+}
+
+
 /* nameBar Começo*/
 
 
