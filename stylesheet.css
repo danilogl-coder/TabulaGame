@@ -9,8 +9,18 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
+
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    
 }
 
+.pixelify-sans-pixelFont {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
 
 /* Ui */
 .mainCircle
@@ -29,6 +39,13 @@ body
  
 }
 
+#roundCircle1Text
+{
+    position: absolute;
+    top: 39%;
+    left: 41%;
+    font-size: 30px;
+}
 #roundCircle2
 {
     position: absolute;
@@ -37,6 +54,14 @@ body
     top: 35%;
     left: 42%;
  
+}
+
+#roundCircle2Text
+{
+    position: absolute;
+    top: 39%;
+    left: 45%;
+    font-size: 30px;
 }
 
 #roundCircle3
@@ -49,6 +74,14 @@ body
  
 }
 
+#roundCircle3Text
+{
+    position: absolute;
+    top: 39%;
+    left: 49%;
+    font-size: 30px;
+}
+
 #roundCircle4
 {
     position: absolute;
@@ -59,6 +92,14 @@ body
  
 }
 
+#roundCircle4Text
+{
+    position: absolute;
+    top: 39%;
+    left: 53%;
+    font-size: 30px;
+}
+
 #roundCircle5
 {
     position: absolute;
@@ -67,6 +108,127 @@ body
     top: 35%;
     left: 54%;
  
+}
+
+#roundCircle5Text
+{
+    position: absolute;
+    top: 39%;
+    left: 57%;
+    font-size: 30px;
+}
+
+.FailsReq
+{
+    position: absolute;
+    top: 46%;
+    left: 51%;
+    font-size: 15px;
+    
+}
+
+/* Reward Circle*/
+
+#roundCircleReward1
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 55%;
+    left: 41%
+}
+
+#roundCircleReward1Text
+{
+    position: absolute;
+    top: 58%;
+    left: 43%;
+    font-size: 20px;
+}
+
+#roundCircleReward2
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 55%;
+    left: 44%
+}
+
+#roundCircleReward2Text
+{
+    position: absolute;
+    top: 58%;
+    left: 46%;
+    font-size: 20px;
+}
+
+#roundCircleReward3
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 55%;
+    left: 47%
+}
+
+#roundCircleReward3Text
+{
+    position: absolute;
+    top: 58%;
+    left: 49%;
+    font-size: 20px;
+}
+
+#roundCircleReward4
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 55%;
+    left: 50%
+}
+
+#roundCircleReward4Text
+{
+    position: absolute;
+    top: 58%;
+    left: 52%;
+    font-size: 20px;
+}
+
+#roundCircleReward5
+{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 55%;
+    left: 53%
+}
+
+#roundCircleReward5Text
+{
+    position: absolute;
+    top: 58%;
+    left: 55%;
+    font-size: 20px;
+}
+
+#gameStatus
+{
+    position: absolute;
+    top: 65%;
+    left: 43%;
+    font-size: 10px;
+}
+
+
+#playerStatus
+{
+    position: absolute;
+    top: 65%;
+    left: 54%;
+    font-size: 20px;
 }
 
 /* --------------------------------------------------------------------------------------------------------------------*/
@@ -188,6 +350,7 @@ body
     height: 120px;
     left: 50%;
     top: 1%; 
+    z-index: 2;
 }
 
 .crownIMG2
@@ -196,6 +359,7 @@ body
     height: 120px;
     left: 60%;
     top: 8%; 
+    z-index: 2;
 }
 
 .crownIMG3
@@ -204,6 +368,7 @@ body
     height: 120px;
     right: 52%;
     top: 8%; 
+    z-index: 2;
 }
 
 .crownIMG4
@@ -212,6 +377,7 @@ body
     height: 120px;
     left: 66%;
     top: 23%; 
+    z-index: 2;
 }
 
 .crownIMG5
@@ -220,7 +386,7 @@ body
     height: 120px;
     right: 58%;
     top: 23%;
-
+    z-index: 2;
 }
 
 .crownIMG6
@@ -229,7 +395,7 @@ body
     height: 120px;
     left: 50%;
     bottom: 13%; 
-
+    z-index: 2;
 }
 
 .crownIMG7
@@ -238,7 +404,7 @@ body
     height: 120px;
     left: 60%;
     bottom: 20%;  
-
+    z-index: 2;
 }
 
 .crownIMG8
@@ -247,7 +413,7 @@ body
     height: 120px;
     right: 52%;
     bottom: 19%; 
-
+    z-index: 2;
 }
 
 .crownIMG9
@@ -256,7 +422,7 @@ body
     height: 120px;
     left: 66%;
     bottom: 34%; 
-
+    z-index: 2;
 }
 
 .crownIMG10
@@ -265,6 +431,7 @@ body
     height: 120px;
     right: 58%;
     bottom: 34%;
+    z-index: 2;
 
 }
 
@@ -286,7 +453,7 @@ body
     position: absolute;
     left: 46%;
     top: 20%; 
-  
+    z-index: 1;
     
    
 }
@@ -304,7 +471,7 @@ body
     position: absolute;
     left: 56%;
     top: 28%; 
-  
+    z-index: 1;
     
    
 }
@@ -322,7 +489,7 @@ body
     position: absolute;
     right: 56%;
     top: 28%; 
-  
+    z-index: 1;
     
    
 }
@@ -340,7 +507,7 @@ body
     position: absolute;
     left: 62%;
     top: 43%; 
-  
+    z-index: 1;
 }
 
 #nameBar5
@@ -356,7 +523,7 @@ body
     position: absolute;
     right: 62%;
     top: 43%; 
-  
+    z-index: 1;
 }
 
 #nameBar6
@@ -372,7 +539,7 @@ body
     position: absolute;
     left: 46%;
     bottom: 6%; 
-  
+    z-index: 1;
 }
 
 #nameBar7
@@ -388,7 +555,7 @@ body
     position: absolute;
     left: 56%;
     bottom: 12%; 
-  
+    z-index: 1;
 }
 
 #nameBar8
@@ -404,7 +571,7 @@ body
     position: absolute;
     right: 56%;
     bottom: 12%; 
-  
+    z-index: 1;
 }
 
 #nameBar9
@@ -420,7 +587,7 @@ body
     position: absolute;
     left: 62%;
     bottom: 27%; 
-  
+    z-index: 1;
 }
 
 
@@ -437,6 +604,7 @@ body
     position: absolute;
     right: 62%;
     bottom: 27%; 
-  
+    z-index: 1;
 }
 /* nameBar Fim*/
+
