@@ -1,3 +1,11 @@
+
+.pixelify-sans-pixelFont {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 body
 {
     background-image: url(Imagem/old_page.png) , url(Imagem/florest.jpg);
@@ -15,12 +23,6 @@ body
     
 }
 
-.pixelify-sans-pixelFont {
-    font-family: "Pixelify Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-  }
 
 /* Ui */
 .mainCircle
@@ -435,6 +437,15 @@ body
 
 }
 
+/* Wooden_Sword*/
+.wooden_swordIMG1
+{
+    position: absolute;
+    height: 150px;
+    left: 41%;
+    top: 1%; 
+    
+}
 
 /* nameBar Começo*/
 
