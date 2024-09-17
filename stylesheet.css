@@ -216,6 +216,15 @@ body
     font-size: 20px;
 }
 
+#roundCircleMedalRewardIMG1
+{
+    position: absolute;
+    top: 57%;
+    left: 54%;
+    width: 42px;
+    height: 40px;
+}
+
 #gameStatus
 {
     position: absolute;
@@ -444,6 +453,86 @@ body
     height: 150px;
     left: 41%;
     top: 1%; 
+    
+}
+
+.wooden_swordIMG2
+{
+    position: absolute;
+    height: 150px;
+    left: 51%;
+    top: 8%; 
+    
+}
+
+.wooden_swordIMG3
+{
+    position: absolute;
+    height: 150px;
+    right: 59%;
+    top: 8%; 
+    
+}
+
+.wooden_swordIMG4
+{
+    position: absolute;
+    height: 150px;
+    left: 57%;
+    top: 23%; 
+    
+}
+
+.wooden_swordIMG5
+{
+    position: absolute;
+    height: 150px;
+    right: 65%;
+    top: 23%;
+    
+}
+
+.wooden_swordIMG6
+{
+    position: absolute;
+    height: 150px;
+    left: 41%;
+    bottom: 8%; 
+    
+}
+
+.wooden_swordIMG7
+{
+    position: absolute;
+    height: 150px;
+    left: 51%;
+    bottom: 14%; 
+    
+}
+
+.wooden_swordIMG8
+{
+    position: absolute;
+    height: 150px;
+    left: 31%;
+    bottom: 14%; 
+    
+}
+
+.wooden_swordIMG9
+{
+    position: absolute;
+    height: 150px;
+    left: 57%;
+    bottom: 30%; 
+    
+}
+.wooden_swordIMG10
+{
+    position: absolute;
+    height: 150px;
+    left: 25%;
+    bottom: 30%; 
     
 }
 
