@@ -199,6 +199,15 @@ body
     font-size: 20px;
 }
 
+#roundCircleMedalRewardIMG4
+{
+    position: absolute;
+    top: 57%;
+    left: 51%;
+    width: 42px;
+    height: 40px;
+}
+
 #roundCircleReward5
 {
     position: absolute;
@@ -208,6 +217,7 @@ body
     left: 53%
 }
 
+
 #roundCircleReward5Text
 {
     position: absolute;
@@ -216,7 +226,7 @@ body
     font-size: 20px;
 }
 
-#roundCircleMedalRewardIMG1
+#roundCircleMedalRewardIMG5
 {
     position: absolute;
     top: 57%;
