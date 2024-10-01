@@ -48,6 +48,15 @@ body
     left: 41%;
     font-size: 30px;
 }
+
+#success1
+{
+    
+    position: absolute;
+    top: 39%;
+    left: 40%;
+    height: 44px;
+}
 #roundCircle2
 {
     position: absolute;
@@ -148,6 +157,15 @@ body
     font-size: 20px;
 }
 
+#roundCircleMedalRewardIMG1
+{
+    position: absolute;
+    top: 57%;
+    left: 42%;
+    width: 42px;
+    height: 40px;
+}
+
 #roundCircleReward2
 {
     position: absolute;
@@ -165,6 +183,15 @@ body
     font-size: 20px;
 }
 
+#roundCircleMedalRewardIMG2
+{
+    position: absolute;
+    top: 57%;
+    left: 45%;
+    width: 42px;
+    height: 40px;
+}
+
 #roundCircleReward3
 {
     position: absolute;
@@ -180,6 +207,15 @@ body
     top: 58%;
     left: 49%;
     font-size: 20px;
+}
+
+#roundCircleMedalRewardIMG3
+{
+    position: absolute;
+    top: 57%;
+    left: 48%;
+    width: 42px;
+    height: 40px;
 }
 
 #roundCircleReward4
