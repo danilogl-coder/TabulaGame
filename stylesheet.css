@@ -1,4 +1,5 @@
 
+
 .pixelify-sans-pixelFont {
     font-family: "Pixelify Sans", sans-serif;
     font-optical-sizing: auto;
@@ -57,6 +58,15 @@ body
     left: 40%;
     height: 44px;
 }
+
+#fail1
+{
+    position: absolute;
+    top: 39%;
+    left: 40%;
+    height: 44px;
+}
+
 #roundCircle2
 {
     position: absolute;
@@ -73,6 +83,22 @@ body
     top: 39%;
     left: 45%;
     font-size: 30px;
+}
+#success2
+{
+    position: absolute;
+    top: 39%;
+    left: 44%;
+    height: 44px;
+}
+
+
+#fail2
+{
+    position: absolute;
+    top: 39%;
+    left: 44%;
+    height: 44px;
 }
 
 #roundCircle3
@@ -93,6 +119,22 @@ body
     font-size: 30px;
 }
 
+#success3
+{
+    position: absolute;
+    top: 39%;
+    left: 48%;
+    height: 44px;
+}
+
+#fail3
+{
+    position: absolute;
+    top: 39%;
+    left: 48%;
+    height: 44px;
+}
+
 #roundCircle4
 {
     position: absolute;
@@ -111,6 +153,22 @@ body
     font-size: 30px;
 }
 
+#success4
+{
+    position: absolute;
+    top: 39%;
+    left: 52%;
+    height: 44px;
+}
+
+#fail4
+{
+    position: absolute;
+    top: 39%;
+    left: 52%;
+    height: 44px;
+}
+
 #roundCircle5
 {
     position: absolute;
@@ -127,6 +185,22 @@ body
     top: 39%;
     left: 57%;
     font-size: 30px;
+}
+
+#success5
+{
+    position: absolute;
+    top: 39%;
+    left: 56%;
+    height: 44px;
+}
+
+#fail5
+{
+    position: absolute;
+    top: 39%;
+    left: 56%;
+    height: 44px;
 }
 
 .FailsReq
@@ -754,3 +828,302 @@ body
 }
 /* nameBar Fim*/
 
+/* ---------- Media Query Começo ----------*/
+
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+    
+.mainCircle
+{
+    width: 150px;
+
+}
+    #userCircle1
+{
+   
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    left: 45%;
+    top: 5%; 
+
+}
+
+    #userCircle2
+{
+    
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    left: 45%;
+    top: 5%; 
+
+}
+
+#userCircle3
+{
+    
+    position: absolute;
+    height: 45px;
+    width: 45px;
+   
+
+}
+
+#userCircle4
+{
+    
+    position: absolute;
+    height: 45px;
+    width: 45px;
+   
+
+}
+
+#userCircle5
+{
+    
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    
+
+}
+
+#userCircle6
+{
+   
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    
+
+}
+
+#userCircle7
+{
+   
+    position: absolute;
+    height: 45px;
+    width: 45px;
+   
+
+}
+
+#userCircle8
+{
+   
+    position: absolute;
+    height: 45px;
+    width: 45px;
+  
+
+}
+
+#userCircle9
+{
+    
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    
+
+}
+
+#userCircle10
+{
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    
+
+}
+
+/* Crown */
+.crownIMG1
+{
+    position: absolute;
+    height: 40px;
+    left: 50%;
+    top: 1%; 
+    z-index: 2;
+}
+
+.crownIMG2
+{
+    position: absolute;
+    height: 40px;
+    left: 60%;
+    top: 8%; 
+    z-index: 2;
+}
+
+.crownIMG3
+{
+    position: absolute;
+    height: 40px;
+    right: 52%;
+    top: 8%; 
+    z-index: 2;
+}
+
+.crownIMG4
+{
+    position: absolute;
+    height: 40px;
+    left: 66%;
+    top: 23%; 
+    z-index: 2;
+}
+
+.crownIMG5
+{
+    position: absolute;
+    height: 40px;
+    right: 58%;
+    top: 23%;
+    z-index: 2;
+}
+
+.crownIMG6
+{
+    position: absolute;
+    height: 40px;
+    left: 50%;
+    bottom: 13%; 
+    z-index: 2;
+}
+
+.crownIMG7
+{
+    position: absolute;
+    height: 40px;
+    left: 60%;
+    bottom: 20%;  
+    z-index: 2;
+}
+
+.crownIMG8
+{
+    position: absolute;
+    height: 40px;
+    right: 52%;
+    bottom: 19%; 
+    z-index: 2;
+}
+
+.crownIMG9
+{
+    position: absolute;
+    height: 40px;
+    left: 66%;
+    bottom: 34%; 
+    z-index: 2;
+}
+
+.crownIMG10
+{
+    position: absolute;
+    height: 40px;
+    right: 58%;
+    bottom: 34%;
+    z-index: 2;
+
+}
+
+
+
+/* Wooden_Sword*/
+.wooden_swordIMG1
+{
+    position: absolute;
+    height: 50px;
+    left: 41%;
+    top: 1%; 
+    
+}
+
+.wooden_swordIMG2
+{
+    position: absolute;
+    height: 50px;
+    left: 51%;
+    top: 8%; 
+    
+}
+
+.wooden_swordIMG3
+{
+    position: absolute;
+    height: 50px;
+    right: 59%;
+    top: 8%; 
+    
+}
+
+.wooden_swordIMG4
+{
+    position: absolute;
+    height: 50px;
+    left: 57%;
+    top: 23%; 
+    
+}
+
+.wooden_swordIMG5
+{
+    position: absolute;
+    height: 50px;
+    right: 65%;
+    top: 23%;
+    
+}
+
+.wooden_swordIMG6
+{
+    position: absolute;
+    height: 50px;
+    left: 41%;
+    bottom: 8%; 
+    
+}
+
+.wooden_swordIMG7
+{
+    position: absolute;
+    height: 50px;
+    left: 51%;
+    bottom: 14%; 
+    
+}
+
+.wooden_swordIMG8
+{
+    position: absolute;
+    height: 50px;
+    left: 31%;
+    bottom: 14%; 
+    
+}
+
+.wooden_swordIMG9
+{
+    position: absolute;
+    height: 50px;
+    left: 57%;
+    bottom: 30%; 
+    
+}
+.wooden_swordIMG10
+{
+    position: absolute;
+    height: 50px;
+    left: 25%;
+    bottom: 30%; 
+    
+}
+
+
+  }
+  
+
+/* ---------- Media Query Fim -------------*/
