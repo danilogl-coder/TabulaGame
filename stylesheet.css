@@ -1083,9 +1083,10 @@ body
 {
    
     position: absolute;
-    height: 45px;
-    width: 45px;
-    
+    height: 60px;
+    width: 60px;
+    left: 45%;
+    top: 54%; 
 
 }
 
@@ -1178,8 +1179,8 @@ body
 {
     position: absolute;
     height: 40px;
-    left: 50%;
-    bottom: 13%; 
+    left: 54%;
+    top: 54%; 
     z-index: 2;
 }
 
@@ -1273,6 +1274,7 @@ body
     position: absolute;
     height: 50px;
     left: 41%;
+    top: 54%; 
     bottom: 8%; 
     
 }
@@ -1378,6 +1380,17 @@ body
     z-index: 1;
     
    
+}
+
+#nameBar6
+{
+    width: 50px;
+    height: 10px;
+    font-size: 6px;
+    position: absolute;
+    left: 46%;
+    top: 62%; 
+    z-index: 1;
 }
 
   }
