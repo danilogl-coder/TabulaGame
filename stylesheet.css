@@ -840,6 +840,187 @@ body
     left: 25%;
 
 }
+/* Menu Circle começo */
+#roundCircle1
+{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 35%;
+    left: 38%;
+ 
+}
+
+#roundCircle1Text
+{
+    position: absolute;
+    top: 39%;
+    left: 41%;
+    font-size: 30px;
+}
+
+#success1
+{
+    
+    position: absolute;
+    top: 39%;
+    left: 40%;
+    height: 44px;
+}
+
+#fail1
+{
+    position: absolute;
+    top: 39%;
+    left: 40%;
+    height: 44px;
+}
+
+#roundCircle2
+{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 35%;
+    left: 42%;
+ 
+}
+
+#roundCircle2Text
+{
+    position: absolute;
+    top: 39%;
+    left: 45%;
+    font-size: 30px;
+}
+#success2
+{
+    position: absolute;
+    top: 39%;
+    left: 44%;
+    height: 44px;
+}
+
+
+#fail2
+{
+    position: absolute;
+    top: 39%;
+    left: 44%;
+    height: 44px;
+}
+
+#roundCircle3
+{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 35%;
+    left: 46%;
+ 
+}
+
+#roundCircle3Text
+{
+    position: absolute;
+    top: 39%;
+    left: 49%;
+    font-size: 30px;
+}
+
+#success3
+{
+    position: absolute;
+    top: 39%;
+    left: 48%;
+    height: 44px;
+}
+
+#fail3
+{
+    position: absolute;
+    top: 39%;
+    left: 48%;
+    height: 44px;
+}
+
+#roundCircle4
+{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 35%;
+    left: 50%;
+ 
+}
+
+#roundCircle4Text
+{
+    position: absolute;
+    top: 39%;
+    left: 53%;
+    font-size: 30px;
+}
+
+#success4
+{
+    position: absolute;
+    top: 39%;
+    left: 52%;
+    height: 44px;
+}
+
+#fail4
+{
+    position: absolute;
+    top: 39%;
+    left: 52%;
+    height: 44px;
+}
+
+#roundCircle5
+{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 35%;
+    left: 54%;
+ 
+}
+
+#roundCircle5Text
+{
+    position: absolute;
+    top: 39%;
+    left: 57%;
+    font-size: 30px;
+}
+
+#success5
+{
+    position: absolute;
+    top: 39%;
+    left: 56%;
+    height: 44px;
+}
+
+#fail5
+{
+    position: absolute;
+    top: 39%;
+    left: 56%;
+    height: 44px;
+}
+
+.FailsReq
+{
+    position: absolute;
+    top: 46%;
+    left: 51%;
+    font-size: 15px;
+    
+}
+/* Menu clicle fim */
     #userCircle1
 {
    
@@ -878,8 +1059,10 @@ body
 {
     
     position: absolute;
-    height: 45px;
-    width: 45px;
+    height: 60px;
+    width: 60px;
+    left: 67%;
+    top: 37%; 
    
 
 }
@@ -888,8 +1071,10 @@ body
 {
     
     position: absolute;
-    height: 45px;
-    width: 45px;
+    height: 60px;
+    width: 60px;
+    right: 63%;
+    top: 36%; 
     
 
 }
@@ -975,8 +1160,8 @@ body
 {
     position: absolute;
     height: 40px;
-    left: 66%;
-    top: 23%; 
+    left: 76%;
+    top: 37%; 
     z-index: 2;
 }
 
@@ -984,8 +1169,8 @@ body
 {
     position: absolute;
     height: 40px;
-    right: 58%;
-    top: 23%;
+    right: 59%;
+    top: 36%;
     z-index: 2;
 }
 
@@ -1069,8 +1254,8 @@ body
 {
     position: absolute;
     height: 50px;
-    left: 57%;
-    top: 23%; 
+    left: 63%;
+    top: 37%; 
     
 }
 
@@ -1078,8 +1263,8 @@ body
 {
     position: absolute;
     height: 50px;
-    right: 65%;
-    top: 23%;
+    right: 69%;
+    top: 37%;
     
 }
 
@@ -1169,6 +1354,31 @@ body
    
 }
 
+#nameBar4
+{
+    width: 50px;
+    height: 10px;
+    font-size: 6px;
+    position: absolute;
+    left: 68%;
+    top: 45%; 
+    z-index: 1;
+    
+   
+}
+
+#nameBar5
+{
+    width: 50px;
+    height: 10px;
+    font-size: 6px;
+    position: absolute;
+    right: 65%;
+    top: 44%; 
+    z-index: 1;
+    
+   
+}
 
   }
   
