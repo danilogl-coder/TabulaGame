@@ -855,10 +855,10 @@ body
 {
     
     position: absolute;
-    height: 45px;
-    width: 45px;
-    left: 45%;
-    top: 15%; 
+    height: 60px;
+    width: 60px;
+    left: 58%;
+    top: 30%; 
 
 }
 
@@ -866,8 +866,10 @@ body
 {
     
     position: absolute;
-    height: 45px;
-    width: 45px;
+    height: 60px;
+    width: 60px;
+    right: 52%;
+    top: 30%; 
    
 
 }
@@ -947,7 +949,7 @@ body
     position: absolute;
     height: 40px;
     left: 53%;
-    top: 27%; 
+    top: 26%; 
     z-index: 2;
 }
 
@@ -955,8 +957,8 @@ body
 {
     position: absolute;
     height: 40px;
-    left: 60%;
-    top: 8%; 
+    left: 66%;
+    top: 29%;  
     z-index: 2;
 }
 
@@ -964,8 +966,8 @@ body
 {
     position: absolute;
     height: 40px;
-    right: 52%;
-    top: 8%; 
+    right: 50%;
+    top: 29%;
     z-index: 2;
 }
 
@@ -1049,8 +1051,8 @@ body
 {
     position: absolute;
     height: 50px;
-    left: 51%;
-    top: 8%; 
+    left: 53%;
+    top: 29%;  
     
 }
 
@@ -1059,7 +1061,7 @@ body
     position: absolute;
     height: 50px;
     right: 59%;
-    top: 8%; 
+    top: 29%;
     
 }
 
@@ -1136,6 +1138,32 @@ body
     position: absolute;
     left: 46%;
     top: 35%; 
+    z-index: 1;
+    
+   
+}
+
+#nameBar2
+{
+    width: 50px;
+    height: 10px;
+    font-size: 6px;
+    position: absolute;
+    left: 60%;
+    top: 37%; 
+    z-index: 1;
+    
+   
+}
+
+#nameBar3
+{
+    width: 50px;
+    height: 10px;
+    font-size: 6px;
+    position: absolute;
+    right: 54%;
+    top: 37%; 
     z-index: 1;
     
    
