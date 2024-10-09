@@ -834,17 +834,20 @@ body
     
 .mainCircle
 {
-    width: 150px;
+    width: 200px;
+    position: absolute;
+    top: 30%;
+    left: 25%;
 
 }
     #userCircle1
 {
    
     position: absolute;
-    height: 45px;
-    width: 45px;
+    height: 60px;
+    width: 60px;
     left: 45%;
-    top: 5%; 
+    top: 27%; 
 
 }
 
@@ -855,7 +858,7 @@ body
     height: 45px;
     width: 45px;
     left: 45%;
-    top: 5%; 
+    top: 15%; 
 
 }
 
@@ -943,8 +946,8 @@ body
 {
     position: absolute;
     height: 40px;
-    left: 50%;
-    top: 1%; 
+    left: 53%;
+    top: 27%; 
     z-index: 2;
 }
 
@@ -1038,7 +1041,7 @@ body
     position: absolute;
     height: 50px;
     left: 41%;
-    top: 1%; 
+    top: 26%; 
     
 }
 
@@ -1120,6 +1123,22 @@ body
     left: 25%;
     bottom: 30%; 
     
+}
+
+/* ---------- Name Bar -------- */
+
+
+#nameBar1 
+{
+    width: 50px;
+    height: 10px;
+    font-size: 6px;
+    position: absolute;
+    left: 46%;
+    top: 35%; 
+    z-index: 1;
+    
+   
 }
 
 
