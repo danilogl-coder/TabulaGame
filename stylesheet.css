@@ -1094,9 +1094,10 @@ body
 {
    
     position: absolute;
-    height: 45px;
-    width: 45px;
-   
+    height: 60px;
+    width: 60px;
+    left: 58%;
+    top: 51%; 
 
 }
 
